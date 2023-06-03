@@ -43,7 +43,7 @@
             android:id="@+id/etBaseAmount"
             android:textSize="24sp" android:hint="Bill amount" app:layout_constraintStart_toEndOf="@+id/tvBaseLevel"
             android:layout_marginStart="32dp" app:layout_constraintTop_toTopOf="@+id/tvBaseLevel"
-            app:layout_constraintBottom_toBottomOf="@+id/tvBaseLevel"/>
+            app:layout_constraintBottom_toBottomOf="@+id/tvBaseLevel" android:maxLength="14"/>
     <SeekBar
             android:layout_width="200dp"
             android:layout_height="wrap_content" android:id="@+id/seekBarTip"
